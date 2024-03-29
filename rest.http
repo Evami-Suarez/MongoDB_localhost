@@ -1,0 +1,98 @@
+### Get all Tspot_details
+GET http://localhost:3000/Tspot_details
+### Get Tspot_details by id
+GET http://localhost:3000/Tspot_details/65fc01e2421a3acfcf5d403a
+### Post to Tspot_details
+POST http://localhost:3000/Tspot_details
+Content-Type: application/json
+
+{
+   "Name":"eva",
+
+   "address": "Philippines",
+    "phonenumber": "0955883",
+    "time.open":"8:00 AM",
+    "time.close": "8:00 PM"
+}
+
+
+### Patch Tspot_details by id
+PATCH http://localhost:3000/Tspot_details/65fc018239cb77c015594b9e
+Content-Type: application/json
+
+{
+   "address": "cdo"
+}
+### Delete Tspot_details by id
+DELETE http://localhost:3000/Tspot_details/65fc079794206bd1ebdbd9fe
+
+
+
+
+
+
+
+
+
+### Get all Tspot_employee
+GET http://localhost:3000/Tspot_employees
+### Get Tspot_employee by id
+GET http://localhost:3000/Tspot_employees/65fc08b2b25182cd35e802a0
+### Post to Tspot_employee
+POST http://localhost:3000/Tspot_employees
+Content-Type: application/json
+
+{
+   "employees.fname":"tynah",
+   "employees.mname": "Anasco",
+   "employees.lname": "m",
+   "employees.employee_number": "097665883",
+   "employees.birthday": "2002-08-20",
+   "employees.address": "Japan"
+}
+
+
+### Patch Tspot_employee by id
+PATCH http://localhost:3000/Tspot_employees/65fc08b2b25182cd35e802a0
+Content-Type: application/json
+
+{
+   "employees.address": "Korea"
+}
+### Delete Tspot_employee by id
+DELETE http://localhost:3000/Tspot_employees/65fc08b2b25182cd35e802a0
+
+
+
+
+
+
+
+### Get all Tspot_reservation
+GET http://localhost:3000/Tspot_reservations
+### Get Tspot_reservation by id
+GET http://localhost:3000/Tspot_reservations/id
+### Post to Tspot_reservation
+POST http://localhost:3000/Tspot_reservations
+Content-Type: application/json
+
+{
+
+    "date": "2002-08-20",
+    "occassion":"Wedding",
+    "NumberofGuest": "30",
+    "time.arrival":"8:00 AM",
+    "time.departure":"8:30 AM"
+
+}
+
+
+### Patch Tspot_reservation by id
+PATCH http://localhost:3000/Tspot_reservations/65fc09b9dbd1926f478b7e4d
+Content-Type: application/json
+
+{
+   "NumberofGuest": "45"
+}
+### Delete Tspot_reservation by id
+DELETE http://localhost:3000/Tspot_reservations/65fc09eddbd1926f478b7e54
