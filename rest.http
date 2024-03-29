@@ -17,14 +17,14 @@ Content-Type: application/json
 
 
 ### Patch Tspot_details by id
-PATCH http://localhost:3000/Tspot_details/65fc018239cb77c015594b9e
+PATCH http://localhost:3000/Tspot_details/65fc01e2421a3acfcf5d403a
 Content-Type: application/json
 
 {
-   "address": "cdo"
+   "address": "iligan"
 }
 ### Delete Tspot_details by id
-DELETE http://localhost:3000/Tspot_details/65fc079794206bd1ebdbd9fe
+DELETE http://localhost:3000/Tspot_details/65fc01e2421a3acfcf5d403a
 
 
 
